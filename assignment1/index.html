@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/movie.css" />
     <title>NETFLIX</title>
   </head>
   <body>
@@ -30,63 +33,70 @@
         </div>
       </div>
     </div>
-    <main>
-      <div class="main-container">
-        <p class="mainTitle">이웃집 토토로</p>
-        <p class="mainText">
-          도시를 떠나 시골로 이사 온 ‘사츠키’와 ‘메이’는 우연히 숲속에 살고 있는
-          신비로운 생명체 ‘토토로’를 만나 신비한 모험을 함께 한다. 그러던 어느
-          날, 어머니의 병원에서 위태로운 소식이 도착하고 언니 ‘사츠키’가
-          정신없이 아빠에게 연락을 취하는 와중에 ‘메이’가 행방불명 되는데…
-        </p>
-        <div class="main-button-container">
-          <button class="mainBtn">Play</button>
-          <button class="mainBtn">My List</button>
-        </div>
-        <img
+    <div class="main-container">
+      <img
           src="assets/images/mainImg.jpg"
           alt="메인 이미지"
-          class="mainImg"
+          class="main-image"
         />
+        <div class='main-container-2'>
+      <div class="main-title">이웃집 토토로</div>
+      
+        <div class="main-text">
+          도시를 떠나 시골로 이사 온 ‘사츠키’와 ‘메이’는 우연히 숲속에 살고 있는
+          신비로운 생명체 ‘토토로’를 만나 신비한 모험을 함께 한다. 그러던 어느 날,
+          어머니의 병원에서 위태로운 소식이 도착하고 언니 ‘사츠키’가 정신없이
+          아빠에게 연락을 취하는 와중에 ‘메이’가 행방불명 되는데…
+        </div>
+        <div class="main-button-container">
+          <button class="main-button">
+            <img class='main-button-image' src='assets/icons/play.png'>
+            <div class='main-button-text'>재생</div></button>
+          <button class="main-button">
+            <img class='main-button-image' src='assets/icons/information.png'>
+            <div class='main-button-text'>상세 정보</div></button>
+          </button>
+        </div>
+        
       </div>
-      <div>
-        <p>요즘 뜨는 콘텐츠</p>
-        <div class="container">
-          <div class="item">
-            <img src="assets/images/m1.jpeg" alt="영화1" />
-            <p>이웃집 토토로</p>
-          </div>
+    </div>
+    <div>
+      <p>요즘 뜨는 콘텐츠</p>
+      <div class="container">
+        <div class="item">
+          <img src="assets/images/m1.jpeg" alt="영화1" />
+          <p>이웃집 토토로</p>
+        </div>
 
-          <div class="item">
-            <img src="assets/images/m2.jpeg" alt="영화2" />
-            <p>엘리멘탈</p>
-          </div>
-          <div class="item">
-            <img src="assets/images/m3.jpeg" alt="영화3" />
-            <p>킬복순</p>
-          </div>
-          <div class="item">
-            <img src="assets/images/m4.jpeg" alt="영화4" />
-            <p>콘크리트 유토피아</p>
-          </div>
-          <div class="item">
-            <img src="assets/images/m5.jpeg" alt="영화5" />
-            <p>괴물</p>
-          </div>
-          <div class="item">
-            <img src="assets/images/m6.jpeg" alt="영화6" />
-            <p>비공식 작전</p>
-          </div>
-          <div class="item">
-            <img src="assets/images/m7.jpeg" alt="영화7" />
-            <p>오펜하이머</p>
-          </div>
-          <div class="item">
-            <img src="assets/images/m8.jpeg" alt="영화8" />
-            <p>인셉션</p>
-          </div>
+        <div class="item">
+          <img src="assets/images/m2.jpeg" alt="영화2" />
+          <p>엘리멘탈</p>
+        </div>
+        <div class="item">
+          <img src="assets/images/m3.jpeg" alt="영화3" />
+          <p>킬복순</p>
+        </div>
+        <div class="item">
+          <img src="assets/images/m4.jpeg" alt="영화4" />
+          <p>콘크리트 유토피아</p>
+        </div>
+        <div class="item">
+          <img src="assets/images/m5.jpeg" alt="영화5" />
+          <p>괴물</p>
+        </div>
+        <div class="item">
+          <img src="assets/images/m6.jpeg" alt="영화6" />
+          <p>비공식 작전</p>
+        </div>
+        <div class="item">
+          <img src="assets/images/m7.jpeg" alt="영화7" />
+          <p>오펜하이머</p>
+        </div>
+        <div class="item">
+          <img src="assets/images/m8.jpeg" alt="영화8" />
+          <p>인셉션</p>
         </div>
       </div>
-    </main>
+    </div>
   </body>
 </html>
