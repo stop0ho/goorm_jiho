@@ -5,22 +5,65 @@
   font-weight: 400;
   font-style: normal;
 }
-.Title {
+
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
+  z-index: 500;
+}
+
+.netflix {
   color: #e50815;
   font-weight: bold;
+  margin-right: 0.3em;
+  cursor: pointer;
 }
 
-header {
-  height: 75px;
-  background-color: #141414;
+.left-section {
   display: flex;
   align-items: center;
-  margin-left: 1em;
 }
 
-.content {
+.nav-content {
   color: white;
   margin-left: 1em;
+  cursor: pointer;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  width: 80px;
+  right: 0;
+}
+
+.search-icon,
+.notifications-icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
 }
 
 body {
