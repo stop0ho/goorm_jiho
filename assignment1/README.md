@@ -2,10 +2,10 @@
 
 ## 스크린샷
 
-<img width="1437" alt="image" src="https://github.com/stop0ho/goorm_jiho/assets/68852637/6a228ec4-bf85-4c3a-b962-f001b28ecae5">
+<img width="1684" alt="image" src="https://github.com/stop0ho/goorm_jiho/assets/68852637/acd51ff0-ee5b-42e5-9e1f-83b35aecaba3">
 
 🔽 hover 하면 확대되는 기능
-<img width="835" alt="스크린샷 2023-08-21 오후 10 35 29" src="https://github.com/stop0ho/goorm_jiho/assets/68852637/456a6d03-5327-44e9-996f-99a9a648f280">
+<img width="1630" alt="image" src="https://github.com/stop0ho/goorm_jiho/assets/68852637/1050f130-c8d1-4a4e-918a-0bfd8d7ae9ac">
 
 ## 배운 점
 
